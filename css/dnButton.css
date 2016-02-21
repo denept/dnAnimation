@@ -1,0 +1,25 @@
+/**
+ * dnAnimation.css
+ * Developers denept
+ * powered by talknept.com
+ * The user please be sure to keep the above information
+ */
+.btnclick {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 100px;
+  -webkit-animation: btnclickKF 0.6s ease-in-out forwards;
+}
+@-webkit-keyframes btnclickKF {
+  0% {
+    -webkit-transform: scaleX(0) scaleY(0);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scaleX(15) scaleY(15);
+    opacity: 0.1;
+  }
+}
