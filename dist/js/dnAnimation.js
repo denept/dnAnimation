@@ -66,7 +66,6 @@ dnAnimation.btnclick = function(obj,callback) {
   var ev = ev || window.event
   var top = ev.clientY + document.body.scrollTop - document.body.clientTop
   var left = ev.clientX + document.body.scrollLeft - document.body.clientLeft
-  //alert(obj.getBoundingClientRect().top);
   top = top - obj.getBoundingClientRect().top - hight
   left = left - obj.getBoundingClientRect().left -hight 
   var div=document.createElement("div")
