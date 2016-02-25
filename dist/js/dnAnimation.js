@@ -76,15 +76,10 @@ dnAnimation.btnclick = function(obj,callback) {
   document.getElementById(div.id).style.left = left+'px'
   if(!hasClass(document.getElementById(div.id), cls)) document.getElementById(div.id).className += " " + cls
   setTimeout(function(){
-    /*if (hasClass(document.getElementById(div.id), cls)) {
-      var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)')
-      document.getElementById(div.id).className = document.getElementById(div.id).className.replace(reg, ' ')
-    }*/
     var idObject = document.getElementById(div.id)
     if (idObject != null) 
           obj.removeChild(idObject)
   },600);
-  //callback.call(this, e);
   return dnAnimation
 }
 
